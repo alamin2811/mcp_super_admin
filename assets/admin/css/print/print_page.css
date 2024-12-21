@@ -1,0 +1,9 @@
+@media print {
+
+    @page { margin: 0.5cm; }
+    
+    .printBtn {
+        display: none;
+    }
+    
+}

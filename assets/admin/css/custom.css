@@ -1,0 +1,327 @@
+@media (min-width: 769px) {
+    .sidebar-xs .sidebar-main .navigation > li > a > span{
+        background-color: #039BE5;
+        border: 1px solid #039BE5;
+    }
+    .sidebar-xs .sidebar-main .navigation > li > ul{
+        background-color: #fff;
+    }
+}
+
+.icon-spinner3 {
+    font-size: 40px !important;
+}
+
+.lightGreen {
+    background: #f8f9d5 !important;
+}
+
+.lightRed {
+    background: #ffdee5 !important;
+}
+
+.file-caption {
+    padding: 7px 16px !important;
+}
+
+.lh50 {
+    line-height: 34px !important;
+}
+
+.attachFile {
+    position: relative;
+    border: 1px solid #535353;
+}
+
+.downloadAttachment {
+    position: absolute;
+    top: -10;
+    z-index: 10;
+}
+
+.chkPages {
+    margin-top: 0px !important;
+}
+
+.chkProducts {
+    margin-top: 0px !important;
+}
+
+.menuFixedContent {
+    height:250px;
+    overflow:auto;
+}
+
+.menuChk {
+    margin-top: 0px !important;
+}
+
+.menuActions {
+    padding-top: 15px;
+    border-top: 1px solid #ccc;
+}
+
+.normalInputField {
+    padding: 8px 16px !important;
+}
+
+.commonSearchSection {
+    position: relative;
+}
+
+.commonSearchResultSection {
+    display: none;
+    position: absolute;
+    top: 45px;
+    height: 400px;
+    overflow-x: hidden;
+    background: #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    z-index: 1;
+    font-size: 11px;
+    width: 500px;
+    right: 0;
+}
+
+.commonSrcOptions {
+    z-index: 2;
+}
+
+.searchTotalSection {
+    background: #eaeaea;
+    padding: 10px 10px;
+}
+
+.searchRes {
+    padding: 10px 20px 10px 20px;
+}
+
+i#section-toggle.down:after{
+    content: "\25BC";
+    font-size: 12px;
+}
+i#section-toggle:after{
+    content: "\25B2";
+    font-size: 12px;
+}
+
+.toggleCommonSection {
+    float: right;
+}
+
+.parentSection > h5 {
+    font-size: 13px;
+    border-bottom: 1px solid #ccc;
+}
+
+.slow-spin {
+    -webkit-animation: fa-spin 1s infinite linear;
+    animation: fa-spin 1s infinite linear;
+}
+
+.fixTable {
+    overflow: auto !important;
+}
+
+/*12-02-2020 CSS START*/
+.heading-elements.head-inner-right ul {
+    list-style-type: none;
+}
+
+.heading-elements.head-inner-right li {
+    float: left;
+    margin-left: 15px;
+}
+
+.heading-elements.head-inner-right li .commonSearchSection .heading-form {
+    margin-left: 0;
+}
+
+@media only screen and (max-width: 1320px) {
+.page-header-content.maine-ph-inner {
+	display: inline-block;
+	width: 100%;
+}
+
+.heading-elements.head-inner-right li {
+	display: inline-block;
+	float: none;
+}
+
+.heading-elements.head-inner-right li {
+	width: 100%;
+	margin-left: 0;
+	margin-bottom: 15px;
+}
+
+.heading-elements.head-inner-right ul {
+	padding: 0;
+}
+
+.heading-elements.head-inner-right li .btn {
+	width: 100%;
+	text-align: left;
+}
+
+.heading-elements.head-inner-right li .commonSearchSection .heading-form {
+	margin-left: 0;
+	width: 100%;
+}
+
+.heading-elements.head-inner-right li .commonSearchSection .heading-form .form-group {
+	width: 100%;
+}
+
+.heading-elements.head-inner-right li .commonSearchSection .input-group {
+	width: 100%;
+	position: relative;
+	padding-right: 86px;
+	max-width: 100%;
+}
+
+.heading-elements.head-inner-right li .commonSearchSection .input-group .form-control {
+	width: 100%;
+}
+
+.heading-elements.head-inner-right li .commonSearchSection .input-group-btn.commonSrcOptions {
+	position: absolute;
+	right: 0;
+	width: 89px;
+	white-space: initial;
+	float: right;
+	display: inline-block;
+}
+
+.heading-elements.head-inner-right li .commonSearchSection .input-group-btn.commonSrcOptions {
+	position: absolute;
+	right: 0;
+	width: 89px;
+	white-space: initial;
+	float: right;
+	display: inline-block;
+}
+
+.heading-elements.head-inner-right li .commonSearchSection .input-group-btn.commonSrcOptions .btn.bg-primary {
+	width: 45px;
+}
+	
+.heading-elements.head-inner-right {
+	position: initial;
+	height: auto;
+}	
+
+}
+
+@media only screen and (max-width: 1024px) {
+.heading-elements.head-inner-right li {
+	display: inline-block;
+	float: none;
+}
+
+.heading-elements.head-inner-right li {
+	width: 100%;
+	margin-left: 0;
+}
+
+.heading-elements.head-inner-right ul {
+	padding: 0;
+}
+
+.heading-elements.head-inner-right li .btn {
+	width: 100%;
+}
+
+.heading-elements.head-inner-right li .commonSearchSection .heading-form {
+    margin-left: 0;
+}
+
+.heading-elements.head-inner-right li .commonSearchSection .input-group {
+	width: 100%;
+	position: relative;
+	padding-right: 86px;
+}
+
+.heading-elements.head-inner-right li .commonSearchSection .input-group .form-control {
+	width: 100%;
+}
+
+.heading-elements.head-inner-right li .commonSearchSection .input-group-btn.commonSrcOptions {
+	position: absolute;
+	right: 0;
+	width: 89px;
+	white-space: initial;
+	float: right;
+	display: inline-block;
+}
+
+.heading-elements.head-inner-right li .commonSearchSection .input-group-btn.commonSrcOptions {
+	position: absolute;
+	right: 0;
+	width: 89px;
+	white-space: initial;
+	float: right;
+	display: inline-block;
+}
+
+.heading-elements.head-inner-right li .commonSearchSection .input-group-btn.commonSrcOptions .btn.bg-primary {
+	width: 45px;
+}
+
+}
+
+@media (max-width: 768px) {
+    .commonSearchResultSection {
+        width: 350px;
+    }
+    
+    .commonSearchResultSection .media-body {
+        text-align: left;
+    }
+}
+
+/*12-02-2020 CSS END*/
+
+
+.registrarImgBorder {
+    height: auto; border: 1px solid #ccc; padding: 0px 5px 0px 5px;
+}
+
+.tokenfield .token > .close {
+    margin-top: -5.5px !important;
+}
+
+.token .token-label {
+    width: auto !important;
+}
+
+.config_tr td table tr:nth-child(1) td {
+    border-top: none;
+}
+
+.config_tr td table tr td:nth-child(1) {
+    width: 20% !important;
+    text-align: right !important;
+}
+
+.config_tr td table tr td:nth-child(2) {
+    width: 50% !important;
+}
+
+.config_tr td table tr td:nth-child(2) input[type='text'] {
+    width: 70% !important;
+}
+
+.marL5 {
+    margin-left: 5px !important;
+}
+
+.config_tr .control-label {
+    text-align: right !important;
+}
+
+.config_tr input[type='text'] {
+    width: 70% !important;
+}

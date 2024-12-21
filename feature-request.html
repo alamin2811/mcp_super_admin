@@ -1,0 +1,1484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Profile - Maxstore</title>
+    <meta name="csrf-token" content="xHMJqwsAJlK0dGVTVtzyvCdfum16IPCVnZTESnqq">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+    <link media="all" type="text/css" rel="stylesheet" href="assets/admin/css/icons/icomoon/styles.css">
+    <link media="all" type="text/css" rel="stylesheet" href="assets/admin/css/icons/fontawesome/styles.min.css">
+    <link media="all" type="text/css" rel="stylesheet" href="assets/admin/css/bootstrap.css">
+    <link media="all" type="text/css" rel="stylesheet" href="assets/admin/css/niceCountryInput.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.min.css">
+    <link media="all" type="text/css" rel="stylesheet" href="assets/admin/css/line-awesome.min.css">
+    <link media="all" type="text/css" rel="stylesheet" href="assets/admin/css/core.css">
+    <link media="all" type="text/css" rel="stylesheet" href="assets/admin/css/components.css">
+    <link media="all" type="text/css" rel="stylesheet" href="assets/admin/css/colors.css">
+    <link media="all" type="text/css" rel="stylesheet" href="assets/admin/css/custom.css">
+    <link media="all" type="text/css" rel="stylesheet" href="assets/admin/css/designer.css">
+    <link media="all" type="text/css" rel="stylesheet" href="assets/admin/css/colorpicker/colorpicker.css">
+    <link media="all" type="text/css" rel="stylesheet" href="assets/admin/css/developer.css">
+    <link media="all" type="text/css" rel="stylesheet" href="assets/admin/css/print/print_page.css">
+    <link media="all" type="text/css" rel="stylesheet" href="assets/admin/css/new-style.css">
+    <link media="all" type="text/css" rel="stylesheet" href="assets/css/feature-request.css">
+
+
+    <script type="text/javascript">
+        var siteurl = "";
+        var adminUrl = "maxadminstore";
+    </script>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png" sizes="16x16">
+</head>
+
+<body class="navbar-top">
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="maxadminstore/dashboard"><img src="assets/admin/images/logo_light.png"
+                    alt=""></a>
+
+            <ul class="nav navbar-nav visible-xs-block">
+                <li><a data-toggle="collapse" data-target="#navbar-mobile"><i class="icon-tree5"></i></a></li>
+                <li><a class="sidebar-mobile-main-toggle"><i class="icon-paragraph-justify3"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="navbar-collapse collapse" id="navbar-mobile">
+            <ul class="nav navbar-nav">
+                <li><a class="sidebar-control sidebar-main-toggle hidden-xs"><i class="icon-paragraph-justify3"></i></a>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="icon-git-compare"></i>
+                        <span class="visible-xs-inline-block position-right">Git updates</span>
+                        <span class="badge bg-warning-400">9</span>
+                    </a>
+
+                    <div class="dropdown-menu dropdown-content">
+                        <div class="dropdown-content-heading">
+                            Git updates
+                            <ul class="icons-list">
+                                <li><a href="#"><i class="icon-sync"></i></a></li>
+                            </ul>
+                        </div>
+
+                        <ul class="media-list dropdown-content-body width-350">
+                            <li class="media">
+                                <div class="media-left">
+                                    <a href="#"
+                                        class="btn border-primary text-primary btn-flat btn-rounded btn-icon btn-sm"><i
+                                            class="icon-git-pull-request"></i></a>
+                                </div>
+
+                                <div class="media-body">
+                                    Drop the IE <a href="#">specific hacks</a> for temporal inputs
+                                    <div class="media-annotation">4 minutes ago</div>
+                                </div>
+                            </li>
+
+                            <li class="media">
+                                <div class="media-left">
+                                    <a href="#"
+                                        class="btn border-warning text-warning btn-flat btn-rounded btn-icon btn-sm"><i
+                                            class="icon-git-commit"></i></a>
+                                </div>
+
+                                <div class="media-body">
+                                    Add full font overrides for popovers and tooltips
+                                    <div class="media-annotation">36 minutes ago</div>
+                                </div>
+                            </li>
+
+                            <li class="media">
+                                <div class="media-left">
+                                    <a href="#"
+                                        class="btn border-info text-info btn-flat btn-rounded btn-icon btn-sm"><i
+                                            class="icon-git-branch"></i></a>
+                                </div>
+
+                                <div class="media-body">
+                                    <a href="#">Chris Arney</a> created a new <span class="text-semibold">Design</span>
+                                    branch
+                                    <div class="media-annotation">2 hours ago</div>
+                                </div>
+                            </li>
+
+                            <li class="media">
+                                <div class="media-left">
+                                    <a href="#"
+                                        class="btn border-success text-success btn-flat btn-rounded btn-icon btn-sm"><i
+                                            class="icon-git-merge"></i></a>
+                                </div>
+
+                                <div class="media-body">
+                                    <a href="#">Eugene Kopyov</a> merged <span class="text-semibold">Master</span> and
+                                    <span class="text-semibold">Dev</span> branches
+                                    <div class="media-annotation">Dec 18, 18:36</div>
+                                </div>
+                            </li>
+
+                            <li class="media">
+                                <div class="media-left">
+                                    <a href="#"
+                                        class="btn border-primary text-primary btn-flat btn-rounded btn-icon btn-sm"><i
+                                            class="icon-git-pull-request"></i></a>
+                                </div>
+
+                                <div class="media-body">
+                                    Have Carousel ignore keyboard events
+                                    <div class="media-annotation">Dec 12, 05:46</div>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <div class="dropdown-content-footer">
+                            <a href="#" data-popup="tooltip" title="All activity"><i
+                                    class="icon-menu display-block"></i></a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <p class="navbar-text"><span class="label bg-primary-800"><i class="icon-hat"></i> SuperAdmin</span></p>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown language-switch">
+                    <a class="dropdown-toggle" data-toggle="dropdown">
+                        <img src="assets/admin/images/flags/gb.png" class="position-left" alt="">
+                        English
+                        <span class="caret"></span>
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li><a class="english"><img src="assets/admin/images/flags/gb.png" alt=""> English</a></li>
+                        <li><a class="hebrew"><img src="assets/admin/images/flags/il.png" alt=""> Hebrew</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="icon-bubbles4"></i>
+                        <span class="visible-xs-inline-block position-right">Messages</span>
+                        <span class="badge bg-warning-400">2</span>
+                    </a>
+
+                    <div class="dropdown-menu dropdown-content width-350">
+                        <div class="dropdown-content-heading">
+                            Messages
+                            <ul class="icons-list">
+                                <li><a href="#"><i class="icon-compose"></i></a></li>
+                            </ul>
+                        </div>
+
+                        <ul class="media-list dropdown-content-body">
+                            <li class="media">
+                                <div class="media-left">
+                                    <img src="assets/admin/images/placeholder.jpg" class="img-circle img-sm" alt="">
+                                    <span class="badge bg-danger-400 media-badge">5</span>
+                                </div>
+
+                                <div class="media-body">
+                                    <a href="#" class="media-heading">
+                                        <span class="text-semibold">James Alexander</span>
+                                        <span class="media-annotation pull-right">04:58</span>
+                                    </a>
+
+                                    <span class="text-muted">who knows, maybe that would be the best thing for
+                                        me...</span>
+                                </div>
+                            </li>
+
+                            <li class="media">
+                                <div class="media-left">
+                                    <img src="assets/admin/images/placeholder.jpg" class="img-circle img-sm" alt="">
+                                    <span class="badge bg-danger-400 media-badge">4</span>
+                                </div>
+
+                                <div class="media-body">
+                                    <a href="#" class="media-heading">
+                                        <span class="text-semibold">Margo Baker</span>
+                                        <span class="media-annotation pull-right">12:16</span>
+                                    </a>
+
+                                    <span class="text-muted">That was something he was unable to do because...</span>
+                                </div>
+                            </li>
+
+                            <li class="media">
+                                <div class="media-left"><img src="assets/admin/images/placeholder.jpg"
+                                        class="img-circle img-sm" alt=""></div>
+                                <div class="media-body">
+                                    <a href="#" class="media-heading">
+                                        <span class="text-semibold">Jeremy Victorino</span>
+                                        <span class="media-annotation pull-right">22:48</span>
+                                    </a>
+
+                                    <span class="text-muted">But that would be extremely strained and
+                                        suspicious...</span>
+                                </div>
+                            </li>
+
+                            <li class="media">
+                                <div class="media-left"><img src="assets/admin/images/placeholder.jpg"
+                                        class="img-circle img-sm" alt=""></div>
+                                <div class="media-body">
+                                    <a href="#" class="media-heading">
+                                        <span class="text-semibold">Beatrix Diaz</span>
+                                        <span class="media-annotation pull-right">Tue</span>
+                                    </a>
+
+                                    <span class="text-muted">What a strenuous career it is that I've chosen...</span>
+                                </div>
+                            </li>
+
+                            <li class="media">
+                                <div class="media-left"><img src="assets/admin/images/placeholder.jpg"
+                                        class="img-circle img-sm" alt=""></div>
+                                <div class="media-body">
+                                    <a href="#" class="media-heading">
+                                        <span class="text-semibold">Richard Vango</span>
+                                        <span class="media-annotation pull-right">Mon</span>
+                                    </a>
+
+                                    <span class="text-muted">Other travelling salesmen live a life of luxury...</span>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <div class="dropdown-content-footer">
+                            <a href="#" data-popup="tooltip" title="All messages"><i
+                                    class="icon-menu display-block"></i></a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="dropdown dropdown-user">
+                    <a class="dropdown-toggle" data-toggle="dropdown">
+                        <img src="storage/profile/thumbnail/652a1026f31ae.jpg" alt="">
+                        <span>MCP Dev</span>
+                        <i class="caret"></i>
+                    </a>
+
+                    <ul class="dropdown-menu dropdown-menu-right">
+                        <li><a href="maxadminstore/users/1/edit"><i class="icon-user-plus"></i> My Profile</a></li>
+                        <li><a href="maxadminstore/users/authentication"><i class="icon-lock2"></i> Authentication</a>
+                        </li>
+                        <li><a href="maxadminstore/notemanager"><i class="icon-file-text2"></i> My Notes</a></li>
+                        <li><a href="maxadminstore/clients"><i class="icon-users4"></i> Client Area</a></li>
+                        <li><a href="#"><span class="badge bg-teal-400 pull-right">58</span> <i
+                                    class="icon-comment-discussion"></i> Notifications</a></li>
+                        <li class="divider"></li>
+                        <li><a href="maxadminstore/logout"><i class="icon-switch2"></i> Logout</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <link media="all" type="text/css" rel="stylesheet" href="lobibox/dist/css/lobibox.min.css">
+    <script src="lobibox/lib/jquery.1.11.min.js"></script>
+    <script src="lobibox/js/lobibox.js"></script>
+    <style type="text/css">
+        .lobibox-notify-msg {
+            max-height: 600px !important;
+        }
+    </style>
+    <script type="text/javascript">
+        function ConfirmDeleteLovi(id, title, href) {
+            Lobibox.confirm({
+                title: title + ' Confirmation',
+                msg: 'Are you sure you, want to ' + title + '?',
+                callback: function ($this, type, ev) {
+                    if (type === 'yes') {
+                        if (title == 'Restore' || title == 'Active' || title == 'Inactive') {
+                            window.location.href = href;
+                        } else {
+                            if (href == 'logout') {
+                                $("#" + id).submit();
+                                return true;
+                            } else {
+                                $("." + id).submit();
+                            }
+                        }
+                    } else {
+                        return false;
+                    }
+                }
+            });
+        }
+    </script>
+    <div class="hideshow" style="display: none;">
+        <div class="blockUI blockOverlay"
+            style="z-index: 1000; border: medium none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.6; cursor: wait; position: fixed;">
+        </div>
+        <div class="blockUI blockMsg blockPage"
+            style="z-index: 1011;position: fixed;padding: 15px;margin: 0px;width: 30%;top: 40%;left: 35%;text-align: center;color: rgb(255, 255, 255);border: medium none;cursor: wait;border-radius: 10px;opacity: 0.5;">
+            <i class="icon-spinner3 spinner"></i>
+        </div>
+    </div>
+
+    <div class="page-container">
+        <div class="page-content">
+            <div class="sidebar sidebar-main sidebar-fixed">
+                <div class="sidebar-content">
+                    <div class="sidebar-category sidebar-category-visible">
+                        <div class="category-content no-padding sidebarMarginExtra">
+                            <ul class="navigation navigation-main navigation-accordion">
+                                <li class=""><a href="maxadminstore/dashboard"><i class="icon-meter-fast"></i>
+                                        <span>Dashboard</span></a></li>
+
+                                <li>
+                                    <a href="#"><i class="icon-users4"></i> <span>Client</span></a>
+                                    <ul>
+
+                                        <li class="active"><a href="maxadminstore/clients"><i
+                                                    class="fa fa-search"></i><span>View/Search Clients</span></a></li>
+
+
+                                        <li class=""><a href="maxadminstore/clients/other"><i
+                                                    class="fa fa-lock"></i><span>Declined Clients</span></a></li>
+
+                                        <li class="">
+                                            <a href="#"><i class="fa fa-cloud"></i><span>Products/Services</span></a>
+                                            <ul>
+                                                <li class="">
+                                                    <a href="maxadminstore/client/products-listing?type=apps-hosting"><i
+                                                            class="icon-file-empty"></i> <span>Payment
+                                                            Gateway</span></a>
+                                                </li>
+                                                <li><a href="#"><i class="icon-cloud"></i><span>Cloud VPS</span></a>
+                                                </li>
+                                                <li class=""><a href="maxadminstore/client/domains-listing"><i
+                                                            class="icon-earth"></i><span>Domain Registrations</span></a>
+                                                </li>
+                                                <li><a href="#"><i class="icon-envelop2"></i><span>SMS</span></a></li>
+                                                <li><a href="#"><i
+                                                            class="icon-newspaper2"></i><span>Newsletter</span></a></li>
+                                                <li><a href="#"><i class="icon-tree6"></i><span>Other
+                                                            Services</span></a></li>
+                                            </ul>
+                                        </li>
+
+                                        <li><a href="#"><i class="icon-alarm-cancel"></i><span>Cancellation
+                                                    Requests</span></a></li>
+                                        <li><a href="#"><i class="icon-envelop5"></i><span>Mass Mail</span></a></li>
+                                    </ul>
+                                </li>
+
+                                <li>
+                                    <a href="#"><i class="icon-basket"></i> <span>Orders</span></a>
+                                    <ul>
+                                        <li class=""><a href="maxadminstore/orders"><i class="icon-clipboard3"></i>
+                                                <span>List All Orders</span></a></li>
+                                        <li class=""><a href="maxadminstore/orders?status=Pending"><i
+                                                    class="icon-alarm"></i> <span>Pending Orders</span></a></li>
+                                        <li class=""><a href="maxadminstore/orders?status=Active"><i
+                                                    class="icon-cart-add"></i> <span>Active Orders</span></a></li>
+                                        <li class=""><a href="maxadminstore/orders?status=Fraud"><i
+                                                    class="icon-spam"></i> <span>Fraud Orders</span></a></li>
+                                        <li class=""><a href="maxadminstore/orders?status=Cancelled"><i
+                                                    class="icon-cancel-circle2"></i> <span>Cancelled Orders</span></a>
+                                        </li>
+                                        <li class=""><a href="maxadminstore/orders/create"><i class="icon-cart-add"></i>
+                                                <span>Add New Order</span></a></li>
+                                    </ul>
+                                </li>
+
+                                <li>
+                                    <a href="javascript:;"><i class="icon-stack-text"></i> <span>Accounting</span></a>
+                                    <ul>
+                                        <li class="">
+                                            <a href="maxadminstore/transactions"><i class="icon-list3"></i>
+                                                <span>Transactions List</span></a>
+                                        </li>
+                                        <li><a href="#"><i class="icon-bookmark4"></i> <span>Documents</span></a>
+                                            <ul>
+                                                <li class=""><a href="#"><i class="icon-cash3"></i>
+                                                        <span>Income</span></a>
+                                                    <ul>
+                                                        <li class="">
+                                                            <a href="maxadminstore/invoices/1"><i
+                                                                    class="icon-file-empty"></i>
+                                                                <span>Invoice/Receipt</span></a>
+                                                        </li>
+                                                        <li class="">
+                                                            <a href="maxadminstore/invoices/2"><i
+                                                                    class="icon-file-empty"></i> <span>Proforma
+                                                                    Invoice</span></a>
+                                                        </li>
+                                                        <li class="">
+                                                            <a href="maxadminstore/invoices/3"><i
+                                                                    class="icon-file-empty"></i> <span>Refund
+                                                                    Invoice</span></a>
+                                                        </li>
+                                                        <li class="">
+                                                            <a href="maxadminstore/invoices/4"><i
+                                                                    class="icon-file-empty"></i> <span>Cancel
+                                                                    Invoice</span></a>
+                                                        </li>
+                                                        <li class="">
+                                                            <a href="maxadminstore/invoices/5"><i
+                                                                    class="icon-file-empty"></i>
+                                                                <span>Receipt</span></a>
+                                                        </li>
+                                                        <li class="">
+                                                            <a href="maxadminstore/invoices/6"><i
+                                                                    class="icon-file-empty"></i>
+                                                                <span>Invoice</span></a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#"><i class="icon-wallet"></i> <span>Expenses</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="icon-file-text2"></i> <span>Quotes</span></a>
+                                                    <ul>
+                                                        <li class=""><a href="maxadminstore/quotes/valid"><i
+                                                                    class="icon-file-check"></i> <span>Valid</span></a>
+                                                        </li>
+                                                        <li class=""><a href="maxadminstore/quotes/expired"><i
+                                                                    class="fa fa-hourglass-end"></i>
+                                                                <span>Expired</span></a></li>
+                                                        <li class=""><a href="maxadminstore/quotes/create"><i
+                                                                    class="icon-file-plus"></i> <span>Create New
+                                                                    Quote</span></a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#"><i class="icon-import"></i> <span>Import / Export</span></a>
+                                            <ul>
+                                                <li class="">
+                                                    <a href="maxadminstore/invoice-types/export"><i
+                                                            class="icon-download"></i> <span>Uniform Structure
+                                                            (bkmvdata)</span></a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#"><i class="icon-import"></i> <span>Billing Report</span></a>
+                                            <ul>
+                                                <li class="">
+                                                    <a href="maxadminstore/billing/income"><i class="icon-download"></i>
+                                                        <span>Income Report</span></a>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+
+                                    </ul>
+                                </li>
+
+                                <li><a href="#"><i class="icon-headphones"></i> <span>Call Center</span></a></li>
+                                <li>
+                                    <a href="#"><i class="icon-lifebuoy"></i> <span>Support</span></a>
+                                    <ul>
+                                        <li><a href="#"><i class="icon-file-presentation"></i> <span>Support
+                                                    Overview</span></a></li>
+                                        <li><a href="#"><i class="fa fa-bullhorn"></i><span>Announcements</span></a>
+                                        </li>
+                                        <li><a href="#"><i class="icon-cloud-download"></i><span>Downloads</span></a>
+                                        </li>
+
+                                        <li class=""><a href="maxadminstore/knowledgebase"><i class="icon-books"></i>
+                                                <span>Knowledgebase</span></a></li>
+
+                                        <li>
+                                            <a href="#"><i class="icon-ticket"></i> <span>Support Tickets</span></a>
+                                            <ul>
+
+                                                <li class=" "><a href="maxadminstore/tickets"><i
+                                                            class="icon-bubbles9"></i> <span>Active Tickets</span></a>
+                                                </li>
+                                                <li class=""><a href="maxadminstore/tickets/complete"><i
+                                                            class="icon-flag4"></i> <span>Completed Tickets</span></a>
+                                                </li>
+                                                <li class=""><a href="maxadminstore/tickets?view=1"><i
+                                                            class="glyphicon glyphicon-folder-open"></i>
+                                                        <span>Opened</span></a></li>
+                                                <li class=""><a href="maxadminstore/tickets?view=2"><i
+                                                            class="icon-reply"></i> <span>Answered</span></a></li>
+                                                <li class=""><a href="maxadminstore/tickets?view=3"><i
+                                                            class="icon-reply-all"></i> <span>Customer-Reply</span></a>
+                                                </li>
+                                                <li class=""><a href="maxadminstore/tickets?view=4"><i
+                                                            class="icon-hand"></i> <span>On Hold</span></a></li>
+                                                <li class=""><a href="maxadminstore/tickets?view=5"><i
+                                                            class="icon-pulse2"></i> <span>In Progress</span></a></li>
+                                                <li class=""><a href="maxadminstore/tickets?view=6"><i
+                                                            class="glyphicon glyphicon-folder-close"></i>
+                                                        <span>Closed</span></a></li>
+                                            </ul>
+                                        </li>
+
+                                        <li class=" ">
+                                            <a href="maxadminstore/bug-reports"><i class="icon-bug2"></i> <span>Bug
+                                                    Report Requests</span></a>
+                                        </li>
+
+                                        <li><a href="#"><i class="icon-reply"></i> <span>Predefined Replies</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="icon-traffic-cone"></i> <span>Network
+                                                    Issues</span></a>
+                                            <ul>
+                                                <li><a href="#"><i class="fa fa-hourglass-half"></i>
+                                                        <span>Opened</span></a></li>
+                                                <li><a href="#"><i class="icon-alarm"></i> <span>Scheduled</span></a>
+                                                </li>
+                                                <li><a href="#"><i class="icon-checkmark4"></i>
+                                                        <span>Resolved</span></a></li>
+                                                <li><a href="#"><i class="icon-plus2"></i> <span>Create New</span></a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="icon-graph"></i> <span>Reports</span></a>
+                                    <ul>
+                                        <li class="  "><a href="maxadminstore/reports"><i class="icon-stats-dots"></i>
+                                                <span>System Reports</span></a></li>
+
+                                        <li class=""><a href="maxadminstore/reports/daily-performance"><i
+                                                    class="icon-stats-dots"></i> <span>Daily Performance</span></a></li>
+
+                                        <li class=""><a href="maxadminstore/reports/income-forecast"><i
+                                                    class="icon-stats-growth"></i> <span>Income Forecast</span></a></li>
+
+                                        <li class=""><a href="maxadminstore/reports/annual-income"><i
+                                                    class="icon-graph"></i> <span>Annual Income Report</span></a></li>
+
+                                        <li class=""><a href="maxadminstore/reports/new-customers"><i
+                                                    class="icon-stats-bars3"></i> <span>New Customers</span></a></li>
+
+                                        <li><a href="#"><i class="icon-stats-bars2"></i> <span>New Resellers</span></a>
+                                        </li>
+
+                                        <li class=""><a href="maxadminstore/reports/ticket-feedback-scores"><i
+                                                    class="icon-medal-first"></i> <span>Ticket Feedback Scores</a></li>
+
+                                        <li class=""><a href="/client-product-group.html"><i
+                                                    class="icon-medal-first"></i> <span>Client Product Group</a></li>
+
+                                        <!--<li><a href="#"><i class="icon-file-pdf"></i> <span>Batch Invoice PDF Export</span></a></li>-->
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="icon-hammer-wrench"></i> <span>Utilities</span></a>
+                                    <ul>
+                                        <li class=""><a href="maxadminstore/blogs"><i class="icon-blog"></i>
+                                                <span>Blogs</span></a></li>
+
+                                        <li class=""><a href="maxadminstore/todolist"><i class="icon-quill4"></i>
+                                                <span>To-Do List</span></a></li>
+
+                                        <li class=""><a href="maxadminstore/feature-request"><i
+                                                    class="icon-package"></i> <span>Feature Requests</span></a></li>
+
+                                        <li>
+                                            <a href="#"><i class="icon-books"></i> <span>Note Manager</span></a>
+                                            <ul>
+                                                <li class=""><a href="maxadminstore/notemanager"><i
+                                                            class="icon-books"></i> <span>All Notes</span></a></li>
+
+                                                <li class=""><a href="maxadminstore/notescategory"><i
+                                                            class="icon-stack"></i> <span>Notes Categories</span></a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="icon-earth"></i> <span>DC Management</span></a>
+                                            <ul>
+                                                <li><a href="#"><i class="icon-menu6"></i> <span>Rack
+                                                            Management</span></a></li>
+                                                <li class=""><a href="maxadminstore/ip_management_listing"><i
+                                                            class="icon-list-numbered"></i> <span>IP
+                                                            Management</span></a></li>
+
+                                                <li><a href="javascript:;"><i class="icon-server"></i> <span>Server
+                                                            Management</span></a></li>
+                                                <li><a href="#"><i class="icon-keyboard"></i> <span>Accessories
+                                                            Management</span></a></li>
+                                                <li><a href="#"><i class="icon-floppy-disk"></i> <span>Software
+                                                            Licenses</span></a></li>
+                                                <li><a href="#"><i class="icon-lan2"></i> <span>Network
+                                                            Management</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="icon-briefcase"></i> <span>Project
+                                                    Management</span></a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#"><i class="icon-puzzle4"></i> <span>Project</span></a>
+                                                    <ul>
+                                                        <li><a href="javascript:;"> <span>All Projects</span></a></li>
+                                                        <li><a href="#"> <span>My Projects</span></a></li>
+                                                        <li><a href="#"> <span>Project Categories</span></a></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="icon-wrench2"></i> <span>Task</span></a>
+                                                    <ul>
+                                                        <li><a href="#"> <span>My Project Tasks</span></a></li>
+                                                        <li><a href="#"> <span>My Assigned Tasks</span></a></li>
+                                                        <li><a href="#"> <span>Templates</span></a></li>
+                                                        <li><a href="#"> <span>All Project Tasks</span></a></li>
+                                                        <li><a href="#"> <span>Archived Tasks</span></a></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="icon-alarm"></i> <span>Timer</span></a>
+                                                    <ul>
+                                                        <li><a href="#"> <span>My Timers</span></a></li>
+                                                        <li><a href="#"> <span>All Timers</span></a></li>
+                                                        <li><a href="#"> <span>Timers Stats</span></a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="icon-wrench2"></i> <span>System</span></a>
+                                            <ul>
+                                                <li><a href="#"><i class="fa fa-gears"></i> <span>Automation
+                                                            Status</span></a></li>
+                                                <li><a href="#"><i class="icon-database-check"></i> <span>Database
+                                                            Status</span></a></li>
+                                                <li><a href="#"><i class="icon-database-refresh"></i> <span>Backup /
+                                                            Restore</span></a></li>
+                                                <li><a href="#"><i class="icon-eraser"></i> <span>System
+                                                            Cleanup</span></a></li>
+                                                <li class=""><a href="maxadminstore/phpinfo" target="_blank"><i
+                                                            class="icon-info3"></i> <span>Php Info</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="icon-file-text2"></i> <span>Logs</span></a>
+                                            <ul>
+                                                <li class=""><a href="maxadminstore/system-activity-logs"><i
+                                                            class="icon-file-presentation"></i> <span>Activity
+                                                            Log</span></a></li>
+
+                                                <li class=""><a href="maxadminstore/system-admin-logs"><i
+                                                            class="icon-file-text2"></i> <span>Admin Log</span></a></li>
+
+                                                <li class=""><a href="maxadminstore/modulelog"><i
+                                                            class="icon-file-xml"></i> <span>Module Log</span></a></li>
+
+                                                <li class=""><a href="maxadminstore/system-email-logs"><i
+                                                            class="icon-envelop2"></i> <span>Email Message
+                                                            Log</span></a></li>
+
+                                                <li><a href="#"><i class="icon-file-download"></i> <span>Ticket Mail
+                                                            Import Log</span></a></li>
+                                                <li><a href="#"><i class="icon-earth"></i> <span>WHOIS Lookup
+                                                            Log</span></a></li>
+
+                                                <li class=""><a href="maxadminstore/gatewaylog "><i class="icon-cc"></i>
+                                                        <span>Gateway Logs</span></a></li>
+                                            </ul>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="icon-coins"></i> <span>Affiliates</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="icon-puzzle2"></i> <span>Addons</span></a>
+                                    <ul>
+                                        <li class="">
+                                            <a href="maxadminstore/addons/module/creditguard/main"><i
+                                                    class="icon-file-empty"></i> <span>CreditGuard</span></a>
+
+                                            <ul>
+                                                <li class="">
+                                                    <a href="maxadminstore/addons/module/creditguard/main"><i
+                                                            class="icon-briefcase"></i> <span>Settings</span></a>
+                                                </li>
+                                                <li class="">
+                                                    <a href="maxadminstore/addons/module/creditguard/installment"><i
+                                                            class="icon-stack"></i> <span>Installments
+                                                            Settings</span></a>
+                                                </li>
+                                                <li class="">
+                                                    <a href="maxadminstore/addons/module/creditguard/advance"><i
+                                                            class="icon-briefcase"></i> <span>Advance
+                                                            Settings</span></a>
+                                                </li>
+
+                                            </ul>
+                                        </li>
+                                        <li class="">
+
+                                        </li>
+                                        <li class="">
+
+                                            <a href="#"><i class="icon-file-empty"></i> <span>012 SMS</span></a>
+                                            <!--<ul>
+    <li class="">
+        <a href="#"><i class="icon-users"></i> <span>Customers</span></a>
+    </li>
+</ul>-->
+                                        </li>
+                                        <li class="">
+
+                                            <a href="#"><i class="icon-file-empty"></i> <span>019 SMS</span></a>
+                                            <!--<ul>
+    <li class="">
+        <a href="#"><i class="icon-users"></i> <span>Customers</span></a>
+    </li>
+</ul>-->
+                                        </li>
+                                        <li class="">
+                                            <a href="maxadminstore/addons/module/voip/main"><i
+                                                    class="icon-file-empty"></i> <span>VOIP</span></a>
+
+                                            <ul>
+                                                <li class="">
+                                                    <a href="maxadminstore/addons/module/voip/main"><i
+                                                            class="icon-briefcase"></i> <span>Settings</span></a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="">
+
+                                            <a href="#"><i class="icon-file-empty"></i> <span>Zadarma</span></a>
+                                        </li>
+                                        <li class="">
+
+                                            <a href="#"><i class="icon-file-empty"></i> <span>FreePBX</span></a>
+                                        </li>
+                                        <li><a href="#"><i class="fa fa-paypal"></i> <span>PayPal</span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="icon-magic-wand"></i> <span>Setup</span></a>
+                                    <ul>
+                                        <li><a href="#"><i class="icon-equalizer3"></i> <span>General
+                                                    Settings</span></a></li>
+                                        <li class=""><a href="maxadminstore/config/automation"><i class="icon-cogs"></i>
+                                                <span>Automation Settings</span></a></li>
+
+                                        <li class="">
+                                            <a href="#"><i class="icon-users"></i> <span>Staff Management</span></a>
+                                            <ul>
+                                                <li class=""><a href="maxadminstore/users"><i class="icon-user"></i>
+                                                        <span>Administrators</span></a></li>
+                                                <li class=""><a href="maxadminstore/roles"><i
+                                                            class="icon-user-lock"></i> <span>Administrator
+                                                            Roles</span></a></li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="">
+                                            <a href="maxadminstore/promotions"><i class="icon-coins"></i>
+                                                <span>Promotions/Coupons</span></a>
+                                        </li>
+
+                                        <li class="">
+                                            <a href="maxadminstore/invoice-types"><i class="fa fa-book"></i>
+                                                <span>Accounting Setting</span></a>
+                                            <ul>
+                                                <li><a href="maxadminstore/invoice-types"><i
+                                                            class="icon-credit-card"></i> <span>Payment</span></a>
+                                                    <ul>
+                                                        <li class=""><a href="maxadminstore/payment-method"><i
+                                                                    class="icon-cc"></i> <span>Payment
+                                                                    Gateways</span></a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="">
+                                                    <a href="maxadminstore/currencies"><i class="fa fa-dollar"></i>
+                                                        <span>Currencies</span></a>
+                                                </li>
+
+                                                <li class="">
+                                                    <a href="maxadminstore/payment/tax"><i class="fa fa-percent"></i>
+                                                        <span>Tax Configuration</span></a>
+                                                </li>
+
+                                                <li class="">
+                                                    <a href="maxadminstore/business/settings"><i class="icon-store"></i>
+                                                        <span>Business Settings</span></a>
+                                                </li>
+
+                                                <li class="">
+                                                    <a href="maxadminstore/invoice-types"><i class="icon-books"></i>
+                                                        <span>Invoice Types</span></a>
+                                                </li>
+
+                                                <li class="">
+                                                    <a href="maxadminstore/invoice-types/notes"><i
+                                                            class="icon-books"></i> <span>Footer Notes</span></a>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="">
+                                            <a href="maxadminstore/product-types"><i class="icon-magazine"></i>
+                                                <span>Product Type</span></a>
+                                        </li>
+
+
+                                        <li>
+                                            <a href="#"><i class="icon-store2"></i> <span>Products/Services</span></a>
+                                            <ul>
+                                                <li class=""><a href="maxadminstore/products"><i class="icon-cloud"></i>
+                                                        <span>Products/Services</span></a></li>
+                                                <li class=""><a href="maxadminstore/product-group"><i
+                                                            class="icon-stack"></i> <span>Product Groups</span></a></li>
+
+                                                <li><a href="#"><i class="icon-equalizer2"></i> <span>Configurable
+                                                            Option</span></a></li>
+                                                <li class=""><a href="maxadminstore/product-addons"><i
+                                                            class="icon-puzzle2"></i> <span>Product Addons</span></a>
+                                                </li>
+                                                <li><a href="#"><i class="icon-cart-add"></i> <span>Product
+                                                            Bundles</span></a></li>
+                                                <li class="">
+                                                    <a href="maxadminstore/domain-pricing"><i
+                                                            class="icon-price-tag"></i> <span>Domain Pricing</span></a>
+                                                </li>
+                                                <li class="">
+                                                    <a href="maxadminstore/domain-registrars"><i class="icon-earth"></i>
+                                                        <span>Domain Registrars</span></a>
+                                                </li>
+                                                <li><a href="#"><i class="icon-server"></i> <span>Servers</span></a>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                        <li>
+                                            <a href="#"><i class="icon-lifebuoy"></i> <span>Support</span></a>
+                                            <ul>
+                                                <li class=""><a href="maxadminstore/departments"><i
+                                                            class="icon-select2"></i><span>Support Department</span></a>
+                                                </li>
+                                                <li><a href="#"><i class="icon-file-text2"></i> <span>Ticket
+                                                            Statuses</span></a></li>
+                                                <li><a href="#"><i class="icon-spam"></i> <span>Spam Control</span></a>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="">
+                                            <a href="maxadminstore/client-group"><i class="icon-users4"></i>
+                                                <span>Client Groups</span></a>
+                                        </li>
+
+                                        <li class="">
+                                            <a href="#"><i class="icon-insert-template"></i> <span>E-mail
+                                                    Template</span></a>
+                                            <ul>
+                                                <li class=""><a href="maxadminstore/emailtemplates">List Templates</a>
+                                                </li>
+                                                <li class=""><a href="maxadminstore/emailtemplates/groups/index">Email
+                                                        Groups</a></li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="">
+                                            <a href="maxadminstore/addons"><i class="icon-puzzle2"></i> <span>Addons
+                                                    Modules</span></a>
+                                        </li>
+
+                                        <li><a href="#"><i class="icon-profile"></i> <span>Custom Client
+                                                    Fields</span></a></li>
+                                        <li>
+                                            <a href="#"><i class="icon-equalizer4"></i> <span>Other</span></a>
+                                            <ul>
+                                                <li><a href="#"><i class="fa fa-hourglass-half"></i> <span>Order
+                                                            Statuses</span></a></li>
+
+                                                <li class="">
+                                                    <a href="maxadminstore/security-question"><i
+                                                            class="icon-user-lock"></i> <span>Security
+                                                            Questions</span></a>
+                                                </li>
+
+                                                <li class=""><a href="maxadminstore/bannedips"><i
+                                                            class="icon-blocked"></i> <span>Banned IPs</span></a></li>
+
+                                                <li class=""><a href="maxadminstore/banned-emails"><i
+                                                            class="icon-blocked"></i> <span>Banned Email</span></a></li>
+
+                                                <li><a href="#"><i class="icon-database-export"></i><span>Database
+                                                            Backups</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="icon-gear"></i> <span>Site Manager</span></a>
+                                            <ul>
+                                                <li class="">
+                                                    <a href="maxadminstore/configs"><i class="icon-gear"></i>
+                                                        <span>Configurations</span></a>
+                                                </li>
+
+                                                <li class="">
+                                                    <a href="maxadminstore/secret-keys/index"><i class="fa fa-key"></i>
+                                                        <span>Secret Keys Manager</span></a>
+                                                </li>
+
+                                                <li class="">
+                                                    <a href="maxadminstore/pages"><i class="icon-users4"></i> <span>All
+                                                            Pages</span></a>
+                                                </li>
+
+                                                <li>
+                                                    <a href="#"><i class="icon-menu8"></i> <span>Menus</span></a>
+                                                    <ul>
+                                                        <li class="">
+                                                            <a href="maxadminstore/menu-section"><i
+                                                                    class="icon-stack"></i> <span>Menu Area</span></a>
+                                                        </li>
+
+                                                        <li class=""><a href="maxadminstore/menus"><i
+                                                                    class="icon-menu8"></i> <span>All Menus</span></a>
+                                                        </li>
+
+                                                    </ul>
+                                                </li>
+
+                                                <li class="">
+                                                    <a href="maxadminstore/sliders"><i class="icon-image5"></i>
+                                                        <span>Sliders</span></a>
+                                                </li>
+
+
+                                                <li class="">
+                                                    <a href="maxadminstore/faqs"><i class="icon-stack-plus"></i>
+                                                        <span>FAQs List</span></a>
+                                                </li>
+
+                                                <li class="">
+                                                    <a href="maxadminstore/testimonial-types"><i
+                                                            class="icon-comment"></i> <span>Testimonials
+                                                            Types</span></a>
+                                                </li>
+
+                                                <li class="">
+                                                    <a href="maxadminstore/testimonials"><i
+                                                            class="icon-comment-discussion"></i>
+                                                        <span>Testimonials</span></a>
+                                                </li>
+
+
+                                                <li>
+                                                    <a href="#"><i class="icon-trophy2"></i> <span>Benefit
+                                                            Manager</span></a>
+                                                    <ul>
+                                                        <li><a href="#">Benefit</a></li>
+                                                        <li><a href="#">Add Benefit</a></li>
+                                                        <li><a href="#">Benefit Categories</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-wrapper">
+                <div class="page-header page-header-default">
+                    <div class="page-header-content maine-ph-inner">
+                        <div class="page-title">
+                            <h4><i class="icon-package"></i><span class="text-semibold"> Feature Request </span>
+                            </h4>
+                        </div>
+
+                        <div class="heading-elements head-inner-right">
+                            <ul>
+                                <li>
+                                    <div class="commonSearchSection">
+                                        <form class="heading-form" action="#">
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control normalInputField"
+                                                        placeholder="Search" id="common_search" autocomplete="off">
+
+                                                    <div class="input-group-btn commonSrcOptions">
+                                                        <button class="btn bg-primary" type="button"><i
+                                                                class="icon-search4" id="icon_search"></i></button>
+                                                        <button class="btn bg-primary dropdown-toggle"
+                                                            data-toggle="dropdown" type="button"><span
+                                                                class="caret"></span></button>
+                                                        <ul class="dropdown-menu dropdown-menu-right">
+                                                            <li class="checkbox"><label><input type="checkbox"
+                                                                        class="styled commonChk"
+                                                                        name="commonSearchOptions[]"
+                                                                        value="client_product"> Clients &amp;
+                                                                    Products</label></li>
+                                                            <li class="checkbox"><label><input type="checkbox"
+                                                                        class="styled commonChk"
+                                                                        name="commonSearchOptions[]" value="ticket">
+                                                                    Support Tickets</label></li>
+                                                            <li class="checkbox"><label><input type="checkbox"
+                                                                        class="styled commonChk"
+                                                                        name="commonSearchOptions[]" value="project">
+                                                                    Projects</label></li>
+                                                            <li class="checkbox"><label><input type="checkbox"
+                                                                        class="styled commonChk"
+                                                                        name="commonSearchOptions[]" value="notes">
+                                                                    Notes</label></li>
+                                                            <li class="divider"></li>
+                                                            <li class="checkbox"><label><input type="checkbox"
+                                                                        class="styled" id="commonChkAll"> Search
+                                                                    all</label></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="commonSearchResultSection">
+                                                <div class="row searchTotalSection">
+                                                    <div class="col-md-10" id="countSearchSection">
+                                                        0 Search Result Found
+                                                    </div>
+
+                                                    <div class="col-md-2 text-right">
+                                                        <a href="#" id="closeCommonSearch"><i
+                                                                class="fa fa-times"></i></a>
+                                                    </div>
+                                                </div>
+                                                <div class="row searchRes">
+
+                                                </div>
+
+                                            </div>
+                                        </form>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="breadcrumb-line">
+                        <ul class="breadcrumb">
+                            <li><a href="maxadminstore/dashboard"><i class="icon-home2 position-left"></i> Home</a></li>
+                            <li><a href="maxadminstore/client/summary/1">Utilities</a></li>
+                            <li>IP Manager</li>
+                            <li class="active">Subnet</li>
+
+                        </ul>
+                        <ul class="breadcrumb-elements">
+                            <li><a href="maxadminstore/clients"><i class="icon-arrow-left52 position-left"></i> Back</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="feature-request-content">
+                        <div class="feature-request-card">
+                            <div class="feature-request-card-top">
+                                <div class="filter-dropdown">
+                                    <div class="dropdown-value">Filter</div>
+                                    <img src="./assets/admin/images/icons/dropdown-arrow.svg" alt="icon" class="drop-icon">
+                                    <div class="dropdown-item">
+                                        <ul>
+                                            <li>-</li>
+                                            <li>--</li>
+                                            <li>---</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <form class="search-bar">
+                                    <button><img src="./assets/admin/images/icons/search-icon.svg" alt="search"></button>
+                                    <input type="text" placeholder="Search">
+                                </form>
+                            </div>
+
+                            <div class="feature-table">
+                                <div class="table-head">
+                                    <ul>
+                                        <li>Name</li>
+                                        <li>Description</li>
+                                        <li>Action</li>
+                                    </ul>
+                                </div>
+                                <div class="table-body">
+                                    <div class="table-row">
+                                        <div class="table-parent-row">
+                                            <ul>
+                                                <li>
+                                                    <button class="table-collapse-btn">
+                                                        <img src="./assets/admin/images/icons/minus.svg" alt="icon" class="minus">
+                                                        <img src="./assets/admin/images/icons/plus.svg" alt="icon" class="plus">
+                                                    </button>
+                                                    <span class="ip-address">192.168.1.0/24  (<span>1</span>,<span class="red">10</span>,<span class="green">243</span>)</span>
+                                                </li>
+                                                <li>Section for Servers</li>
+                                                <li>
+                                                    <div class="table-row-menu">
+                                                        <button class="dot-btn"><img src="/assets/admin/images/icons/3dot.svg" alt="icon"></button>
+                                                        <div class="menu-list">
+                                                            <a href="#">Edit </a>
+                                                            <a href="#">Delete</a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <div class="table-chilld-rows">
+                                                <ul>
+                                                    <li><span class="ip-address gray">192.168.1.1</span></li>
+                                                    <li>Section for IPv6 Addresses</li>
+                                                    <li>
+                                                        <div class="table-row-menu">
+                                                            <button class="dot-btn"><img src="/assets/admin/images/icons/3dot.svg" alt="icon"></button>
+                                                            <div class="menu-list w-150">
+                                                                <a href="#">Edit </a>
+                                                                <a href="#">Assign (If Free)</a>
+                                                                <a href="#">Free (If Assigned)</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li><span class="ip-address red">192.168.1.2</span></li>
+                                                    <li>Section for Servers</li>
+                                                    <li>
+                                                        <div class="table-row-menu">
+                                                            <button class="dot-btn"><img src="/assets/admin/images/icons/3dot.svg" alt="icon"></button>
+                                                            <div class="menu-list w-150">
+                                                                <a href="#">Edit </a>
+                                                                <a href="#">Assign (If Free)</a>
+                                                                <a href="#">Free (If Assigned)</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li><span class="ip-address green">192.168.1.3</span></li>
+                                                    <li>Section for Servers</li>
+                                                    <li>
+                                                        <div class="table-row-menu">
+                                                            <button class="dot-btn"><img src="/assets/admin/images/icons/3dot.svg" alt="icon"></button>
+                                                            <div class="menu-list w-150">
+                                                                <a href="#">Edit </a>
+                                                                <a href="#">Assign (If Free)</a>
+                                                                <a href="#">Free (If Assigned)</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="table-row">
+                                        <div class="table-parent-row">
+                                            <ul>
+                                                <li>
+                                                    <button class="table-collapse-btn">
+                                                        <img src="./assets/admin/images/icons/minus.svg" alt="icon" class="minus">
+                                                        <img src="./assets/admin/images/icons/plus.svg" alt="icon" class="plus">
+                                                    </button>
+                                                    <span class="ip-address">192.168.2.0/24  (<span>1</span>,<span class="red">10</span>,<span class="green">243</span>)</span>
+                                                </li>
+                                                <li>Section for Servers</li>
+                                                <li>
+                                                    <div class="table-row-menu">
+                                                        <button class="dot-btn"><img src="/assets/admin/images/icons/3dot.svg" alt="icon"></button>
+                                                        <div class="menu-list">
+                                                            <a href="#">Edit </a>
+                                                            <a href="#">Delete</a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <div class="table-chilld-rows">
+                                                <ul>
+                                                    <li><span class="ip-address">192.168.2.1</span></li>
+                                                    <li>Section for Servers</li>
+                                                    <li>
+                                                        <div class="table-row-menu">
+                                                            <button class="dot-btn"><img src="/assets/admin/images/icons/3dot.svg" alt="icon"></button>
+                                                            <div class="menu-list w-150">
+                                                                <a href="#">Edit </a>
+                                                                <a href="#">Assign (If Free)</a>
+                                                                <a href="#">Free (If Assigned)</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="table-row">
+                                        <div class="table-parent-row">
+                                            <ul>
+                                                <li>
+                                                    <button class="table-collapse-btn">
+                                                        <img src="./assets/admin/images/icons/minus.svg" alt="icon" class="minus">
+                                                        <img src="./assets/admin/images/icons/plus.svg" alt="icon" class="plus">
+                                                    </button>
+                                                    <span class="ip-address">10.1.0.0/16 (<span>1</span>,<span class="red">10</span>,<span class="green">243</span>)</span>
+                                                </li>
+                                                <li>Section for Servers</li>
+                                                <li>
+                                                    <div class="table-row-menu">
+                                                        <button class="dot-btn"><img src="/assets/admin/images/icons/3dot.svg" alt="icon"></button>
+                                                        <div class="menu-list">
+                                                            <a href="#">Edit </a>
+                                                            <a href="#">Delete</a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <div class="table-chilld-rows">
+                                                <ul>
+                                                    <li><span class="ip-address">10.1.1.1</span></li>
+                                                    <li>Section for Servers</li>
+                                                    <li>
+                                                        <div class="table-row-menu">
+                                                            <button class="dot-btn"><img src="/assets/admin/images/icons/3dot.svg" alt="icon"></button>
+                                                            <div class="menu-list w-150">
+                                                                <a href="#">Edit </a>
+                                                                <a href="#">Assign (If Free)</a>
+                                                                <a href="#">Free (If Assigned)</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="feature-request-card-bottom">
+                                <div class="pagination">
+                                    <ul>
+                                        <li><a href="#"><img src="./assets/admin/images/icons/left-icon.svg" alt="icon"></a></li>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#">4</a></li>
+                                        <li><a href="#"><img src="./assets/admin/images/icons/right-icon.svg" alt="icon"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar navbar-default navbar-fixed-bottom">
+                <ul class="nav navbar-nav no-border visible-xs-block">
+                    <li><a class="text-center collapsed" data-toggle="collapse" data-target="#navbar-second"><i
+                                class="icon-circle-up2"></i></a></li>
+                </ul>
+                <div class="navbar-collapse collapse" id="navbar-second">
+                    <div class="navbar-text"> &copy; 2023 <a href="maxadminstore">Cloud Platform</a> </div>
+                    <div class="navbar-right">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#" class="text-semibold">Upgrade your account</a></li>
+                            <li><a href="#">Support Center</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+
+
+                            <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i
+                                        class="icon-link"></i> <span
+                                        class="visible-xs-inline-block position-right">Settings</span> <span
+                                        class="caret"></span> </a>
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                    <li><a href="https://git.maxstore.co.il/users/sign_in" target="_blank"
+                                            title="GIT Maxstore"><i class="icon-github5"></i>GIT Maxstore</a></li>
+                                    <li><a href="http://emapp.client.center/public/" target="_blank"
+                                            title="Marketing App"><i class="icon-megaphone"></i>Marketing App</a></li>
+                                    <li><a href="http://crm.client.center/public/" target="_blank" title="CRM App"><i
+                                                class="icon-briefcase"></i>CRM App</a></li>
+                                    <li><a href="#" target="_blank" title="Custom Link1"><i class="icon-link2"></i>
+                                            Custom Link1</a></li>
+                                    <li><a href="#" target="_blank" title="Custom Link2"><i class="icon-link2"></i>
+                                            Custom Link2</a></li>
+                                    <li><a href="#" target="_blank" title="Custom Link3"><i class="icon-link2"></i>
+                                            Custom Link3</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <!-- Core JS files -->
+    <script src="assets/admin/js/plugins/loaders/pace.min.js"></script>
+    <script src="assets/admin/js/core/libraries/jquery.min.js"></script>
+    <script src="assets/admin/js/core/libraries/bootstrap.min.js"></script>
+    <script src="assets/admin/js/plugins/loaders/blockui.min.js"></script>
+    <script src="assets/admin/js/plugins/forms/selects/select2.min.js"></script>
+    <script src="assets/admin/js/plugins/notifications/sweet_alert.min.js"></script>
+    <script src="assets/admin/js/pages/layout_fixed_native.js"></script>
+    <!-- /core JS files -->
+    <script src="assets/admin/js/core/libraries/jquery_ui/widgets.min.js"></script>
+    <script src="assets/admin/js/plugins/tables/datatables/datatables.min.js"></script>
+    <script src="assets/admin/js/plugins/tables/datatables/extensions/natural_sort.js"></script>
+    <script src="assets/admin/js/plugins/forms/styling/uniform.min.js"></script>
+    <script src="assets/admin/js/plugins/forms/styling/switchery.min.js"></script>
+    <script src="assets/admin/js/plugins/forms/styling/switch.min.js"></script>
+    <script src="assets/admin/demo_data/editors/wysihtml5/wysihtml5.min.js"></script>
+    <script src="assets/admin/demo_data/editors/wysihtml5/parsers.js"></script>
+    <script src="assets/admin/demo_data/editors/wysihtml5/toolbar.js"></script>
+    <!-- Theme JS files -->
+    <script src="assets/admin/js/pages/datatables_basic.js"></script>
+
+    <script src="assets/admin/js/uploaders/fileinput/plugins/purify.min.js"></script>
+    <script src="assets/admin/js/uploaders/fileinput/plugins/sortable.min.js"></script>
+    <script src="assets/admin/js/uploaders/fileinput/fileinput.min.js"></script>
+
+
+    <script src="assets/admin/js/jquery.validate.min.js"></script>
+    <script src="assets/admin/js/custom.validiation.min.js"></script>
+    <script src="assets/admin/js/jquery.form.js"></script>
+    <script src="assets/admin/js/plugins/forms/selects/selectboxit.min.js"></script>
+    <script src="assets/admin/js/colorpicker.js"></script>
+    <script src="assets/admin/js/plugins/ui/nicescroll.min.js"></script>
+    <script src="assets/admin/js/pages/layout_fixed_custom.js"></script>
+
+    <!-- nice country select js -->
+    <script src="assets/admin/js/niceCountryInput.js"></script>
+    <script>
+        /*---------------------------
+            nice country select script
+        ---------------------------*/
+        function onChangeCallback(ctr) {
+            console.log("The country was changed: " + ctr);
+        }
+
+        $(function () {
+            new NiceCountryInput($(".niceCountryInput")).init();
+        });
+    </script>
+
+    <script ript src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <script>
+        var input = document.querySelector("#IntTellInput");
+        var iti = window.intlTelInput(input, {
+            initialCountry: "il",
+            separateDialCode: true,
+        });
+    </script>
+
+
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            CustomFormValidiation.init();
+        });
+    </script>
+    <script src="assets/admin/js/plugins/pickers/pickadate/picker.js"></script>
+    <script src="assets/admin/js/plugins/pickers/pickadate/picker.date.js"></script>
+    <script src="assets/admin/js/core/app.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            // Accessibility labels
+            $('.pickadate-accessibility').pickadate({
+                labelMonthNext: 'Go to the next month',
+                labelMonthPrev: 'Go to the previous month',
+                labelMonthSelect: 'Pick a month from the dropdown',
+                labelYearSelect: 'Pick a year from the dropdown',
+                selectMonths: true,
+                selectYears: true,
+                format: 'yyyy-mm-dd'
+            });
+
+            var clientId = "1";
+
+            $('#delete_cont').on('click', function () {
+                var _action = $(this).data('delete');
+                Lobibox.confirm({
+                    title: 'Delete Confirmation',
+                    msg: 'Are you sure you, want to delete ?',
+                    callback: function ($this, type, ev) {
+                        if (type === 'yes') {
+                            window.location = _action;
+                        } else {
+                            return false;
+                        }
+                    }
+                });
+            });
+
+            $('#reset_send_pwd').on('click', function () {
+                var _action = $(this).data('action');
+                if (_action) {
+                    window.location = _action;
+                } else {
+                    return false;
+                }
+            });
+
+            $(".selectbox").selectBoxIt({
+                autoWidth: false
+            });
+
+            $(".styled").uniform({
+                radioClass: 'choice',
+                wrapperClass: 'border-info-600 text-info-800'
+            });
+        });
+
+    </script>
+
+
+    <script>
+    // add class active on table row
+        const collapseButtons = document.querySelectorAll('.table-collapse-btn');
+
+        collapseButtons.forEach(button => {
+            button.addEventListener('click', function () {
+                // Find the parent row
+                const parentRow = this.closest('.table-parent-row');
+
+                // Toggle the 'active' class
+                if (parentRow) {
+                    parentRow.classList.toggle('active');
+                }
+            });
+        });
+    </script>
+
+    <script>
+        //filter dropdown
+        document.addEventListener('DOMContentLoaded', () => {
+            const dropdowns = document.querySelectorAll('.filter-dropdown');
+
+            dropdowns.forEach(dropdown => {
+                const valueElement = dropdown.querySelector('.dropdown-value');
+                const itemElement = dropdown.querySelector('.dropdown-item');
+                const items = itemElement.querySelectorAll('li');
+
+                // Toggle visibility on click
+                valueElement.addEventListener('click', () => {
+                    itemElement.style.display = itemElement.style.display === 'block' ? 'none' : 'block';
+                });
+
+                // Update the value on item click
+                items.forEach(item => {
+                    item.addEventListener('click', () => {
+                        valueElement.textContent = item.textContent; // Set the clicked item's text
+                        itemElement.style.display = 'none'; // Hide the dropdown
+                    });
+                });
+
+                // Close the dropdown if clicking outside
+                document.addEventListener('click', (event) => {
+                    if (!dropdown.contains(event.target)) {
+                        itemElement.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
